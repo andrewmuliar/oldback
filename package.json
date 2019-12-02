@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cookies": "^0.7.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "firebase-functions": "^2.3.0",
+    "google-auth-library": "^2.0.1",
+    "helmet": "^3.14.0",
+    "jsonwebtoken": "^8.3.0",
+    "neo4j-driver": "^1.5.0",
+    "nexmo": "^2.4.0",
+    "nodemon": "^1.18.9",
+    "socket.io": "^2.1.1",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.1",
+    "url-metadata": "^2.4.0",
+    "web-push": "^3.3.3",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node api.js",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./tsc/DreamClass.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmuliar/Dreamster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewmuliar/Dreamster/issues"
+  },
+  "homepage": "https://github.com/andrewmuliar/Dreamster#readme"
+}
