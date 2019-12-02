@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "api.js",
+  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
@@ -26,7 +26,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node api.js",
+    "start": "node index.js",
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./tsc/DreamClass.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
