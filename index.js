@@ -731,7 +731,7 @@ app.get('*', function(req, res){
     // app.use(express.static(__dirname + '/public'))
 })
 
-server.listen(process.env.PORT || 8080, function () {
+server.listen(80, function () {
   console.log('Example app listening on port 80!');
 });
 
