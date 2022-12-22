@@ -13,7 +13,7 @@
     "firebase-functions": "^2.3.0",
     "google-auth-library": "^2.0.1",
     "helmet": "^3.14.0",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "neo4j-driver": "^1.5.0",
     "nexmo": "^2.4.0",
     "nodemon": "^1.18.9",
